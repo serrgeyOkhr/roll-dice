@@ -1,6 +1,22 @@
 <template>
   <div class="container">
     <h1>Roll Dice</h1>
+    <q-separator />
+    <div class="diceTray">
+      <!-- Here will be a dice results -->
+    </div>
+    <div class="savedRolls">
+      <!-- Saved rolls -->
+      <div class="savedRoll">
+        <!-- v-for='(roll, index)' in rolls :key=index -->
+      </div>
+    </div>
+    <div class="diceSelector">
+      <!-- active selector component -->
+    </div>
+    <div class="actionPlate">
+      <!-- selected dice + modifier + action button -->
+    </div>
   </div>
 </template>
 
